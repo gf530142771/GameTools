@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\游戏小功能">
+      <UniqueIdentifier>{fa7b0d6d-9049-4215-b996-f08e5ec404b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\游戏小功能\翻牌">
+      <UniqueIdentifier>{0d898a80-6807-4d28-b095-6aafee61ea22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlipCardLayerInterface.cpp">
+      <Filter>Classes\游戏小功能\翻牌</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlipCardSpriteLayer.cpp">
+      <Filter>Classes\游戏小功能\翻牌</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controller.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\testBasic.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlipCardScene.cpp">
+      <Filter>Classes\游戏小功能\翻牌</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlipCardLayerInterface.h">
+      <Filter>Classes\游戏小功能\翻牌</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlipCardSpriteLayer.h">
+      <Filter>Classes\游戏小功能\翻牌</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\testBasic.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\testResource.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tests.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlipCardScene.h">
+      <Filter>Classes\游戏小功能\翻牌</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

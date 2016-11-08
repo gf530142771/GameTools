@@ -32,6 +32,11 @@ public:
     @param  the pointer of the application
     */
     virtual void applicationWillEnterForeground();
+
+	/*
+	@brief 重新设置搜索路径
+	*/
+	void resetSearchPath();
 };
 
 #endif // _APP_DELEGATE_H_
